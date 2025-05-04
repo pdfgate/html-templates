@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Invoice</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+	<div class="header-left">
+		<h1>Brand Name</h1>
+		<p>Brand text</p>
+	</div>
+	<div class="header-right">
+		<p><strong>Invoice #:</strong> 242222</p>
+		<p><strong>Invoice Date:</strong> 22/01/2024</p>
+	</div>
+</header>
+
+<div class="invoice">
+	<div class="invoice-lines">
+		<hr />
+		<hr />
+		<hr />
+	</div>
+    <h1>INVOICE</h1>
+	<div class="invoice-lines">
+		<hr />
+		<hr />
+		<hr />
+	</div>
+</div>
+
+<div class="contacts">
+	<div>
+		<p><h3>From</h3></p>
+		<p><strong>Brand Name</strong></p>
+		<p>12, Clapit Lane, Leeds, LS2 8NW</p>
+		<p><i class="fa fa-envelope"></i>youremail@mail.com</p>
+		<p><i class="fa fa-phone"></i>+44 20 7123 4567</p>
+	</div>
+	<div>
+		<p><h3>To</h3></p>
+		<p><strong>John Doe</strong></p>
+		<p>123 Ware Avenue, Bronx, NY 10461</p>
+		<p><i class="fa fa-envelope"></i>email@mail.com</p>
+		<p><i class="fa fa-phone"></i>+1 703-555-5678</p>
+	</div>
+</div>
+
+<div class="line-items">
+	<table>
+		<thead>
+			<tr>
+				<th>Details</th>
+				<th class="quantity-col">Quantity</th>
+				<th>Price</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<strong>Logo Design</strong>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</td>
+				<td class="quantity-col">
+					1
+				</td>
+				<td>
+					$200
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<strong>Website Design</strong>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</td>
+				<td class="quantity-col">
+					1
+				</td>
+				<td>
+					$700
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<strong>Brochure Design</strong>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</td>
+				<td class="quantity-col">
+					1
+				</td>
+				<td>
+					$400
+				</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td></td>
+				<td class="total-txt">Total Price</td>
+				<td><strong>$1300</strong></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class="total-txt">VAT <span class="vat">20%</span></td>
+				<td><strong>$260</strong></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class="total-txt"><strong>Total</strong></td>
+				<td><strong>$1560</strong></td>
+			</tr>
+		  </tfoot>
+	</table>
+</div>
+
+<div class="signature">
+	<h1>THANKS FOR YOUR BUSINESS!</h1>
+	<div class="signature-datail">
+		<img
+			width="100"
+			src="data:image/png;base64, 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"
+			alt="Signature" />
+		<h3>Emma Smith</h3>
+		<p>Director</p>
+	</div>
+</div>
+
+</body>
+</html>
