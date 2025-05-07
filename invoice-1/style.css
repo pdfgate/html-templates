@@ -1,5 +1,5 @@
 @page  {
-	margin: 20px 0;
+	margin: 1cm 0;
 }
 
 body {
@@ -16,11 +16,11 @@ header {
 .header-left {
 	background-color: rgb(14, 156, 212);
 	height: 120px;
-	width: 50%;
+	width: 40%;
 	display: flex;
 	flex-direction: column;
 	color: white;
-	padding-left: 10px;
+	padding-left: 30px;
 }
 
 .header-left h1 {
@@ -30,7 +30,7 @@ header {
 .header-right {
 	background-color: rgb(198, 230, 242);
 	height: 120px;
-	width: 50%;
+	width: 60%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -53,7 +53,7 @@ header {
 
 .invoice h1 {
 	font-weight: 500;
-	font-size: 80px;
+	font-size: 72px;
 	color: rgb(14, 156, 212);
 	margin: 30px 10px;
 }
@@ -72,7 +72,7 @@ header {
 }
 
 .invoice-lines:first-child {
-	width: 200px;
+	width: 300px;
 }
 
 .invoice-lines:last-child {
@@ -90,6 +90,7 @@ header {
 
 .contacts div{
 	width: 50%;
+	padding-left: 70px;
 }
 
 .contacts h3 {
@@ -121,13 +122,40 @@ header {
 	font-size: 17px;
 }
 
+.line-items table th:first-child {
+	padding-left: 70px;
+}
+
+.line-items table th:last-child {
+	padding-right: 70px;
+}
+
+.line-items table td:first-child {
+	padding-left: 70px;
+}
+
+.line-items table td:last-child {
+	padding-right: 70px;
+}
+
 .line-items table td{
 	padding: 15px;
 	border-bottom: 1px solid rgb(126, 168, 205);
 }
 
+.line-items table td p{
+	margin: 0;
+}
+
 .total-txt {
 	text-align: right;
+	display: flex;
+	flex-direction: column;
+}
+
+.total-price {
+	display: flex;
+	flex-direction: column;
 }
 
 .quantity-col {
@@ -135,18 +163,13 @@ header {
 	width: 25%;
 }
 
-.line-items table tfoot td{
-	padding: 10px 15px;
-	border-bottom: none
-}
 
-.line-items table tfoot tr:last-child td{
+.line-items table td{
 	border-bottom: 1px solid rgb(126, 168, 205);
 }
 
 .vat {
 	font-size: 14px;
-	font-weight: 700;
 }
 
 .signature {
@@ -154,16 +177,18 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 .signature h1{
 	color: rgb(198, 230, 242);
+	margin-left: 70px;
 }
 
 .signature-datail {
 	display: flex;
 	flex-direction: column;
+	margin-right: 70px;
 }
 
 .signature-datail h3{
@@ -173,4 +198,3 @@ header {
 .signature-datail p{
 	margin: 0;
 }
-
