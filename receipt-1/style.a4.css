@@ -1,0 +1,156 @@
+@page  {
+	margin: 1cm 0;
+}
+
+body {
+	margin: 0 auto;
+	font-family: "Roboto Mono", monospace;
+	max-width: 1200px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 50px;
+}
+
+header h1 {
+ font-size: 100px;
+ font-weight: 400;
+}
+
+.logo {
+	height: 200px;
+}
+
+.receipt-detail {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.receipt-detail div{
+	width: 50%;
+}
+
+.receipt-detail div:first-child{
+	padding-left: 70px;
+}
+
+.contacts {
+	display: flex;
+	width: 100%;
+}
+
+.contacts p {
+	margin: 7px 0;
+}
+
+.contacts div{
+	width: 50%;
+	padding-left: 70px;
+}
+
+.contacts h3 {
+	font-weight: 500;
+	margin: 0;
+}
+
+.line-items {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.line-items table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.line-items table th{
+	padding: 15px;
+	border-bottom: 4px solid rgb(207, 208, 209);
+	font-size: 17px;
+}
+
+.line-items table th:first-child {
+	padding-left: 70px;
+}
+
+.line-items table th:last-child {
+	padding-right: 70px;
+}
+
+.line-items table td:first-child {
+	padding-left: 70px;
+}
+
+.line-items table td:last-child {
+	padding-right: 70px;
+}
+
+.line-items table td{
+	padding: 15px;
+}
+
+.line-items table td:last-child, .line-items table th:last-child{
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.line-items table tr:last-child td{
+	border-bottom: 4px solid rgb(207, 208, 209);
+}
+
+.receipt-total {
+	display: flex;
+	width: 50%;
+	float: right;
+	border-bottom: 4px solid rgb(207, 208, 209);
+	padding: 10px 0;
+	justify-content: flex-end;
+}
+
+.receipt-total span {
+	margin: 10px 0;
+}
+
+.receipt-total strong {
+	margin: 10px 0;
+}
+
+.vat {
+	font-size: 14px;
+}
+
+.total-txt {
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	margin-right: 40px;
+}
+
+.total-price {
+	display: flex;
+	flex-direction: column;
+	padding-right: 70px;
+}
+
+.notes {
+	padding: 50px 0 20px 0;
+	width: 100%;
+	margin-left: 70px;
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
