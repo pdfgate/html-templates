@@ -1,0 +1,190 @@
+@page  {
+	margin: 1cm 0;
+}
+
+body {
+	margin: 0 auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	max-width: 1200px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-left {
+	height: 150px;
+	padding-left: 70px;
+}
+
+.header-right {
+	display: flex;
+	flex-direction: column;
+	height: 150px;
+	margin-right: 100px;
+}
+
+.header-right h1 {
+	margin: 0;
+	color: #5E00FF;
+	font-size: 50px;
+}
+
+.header-right p {
+	margin: 5px 0 0 0;
+}
+
+.header-right p:first-child {
+	margin-top: 10px;
+}
+
+.contacts {
+	display: flex;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.contacts p {
+	margin: 7px 0;
+}
+
+.contacts div{
+	width: 50%;
+}
+
+.contacts div:first-child{
+	padding-left: 70px;
+}
+
+.contacts h3 {
+	font-weight: 600;
+	margin: 0;
+}
+
+.line-items {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.line-items table{
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.line-items table th{
+	padding: 20px 15px;
+	background: #5E00FF;
+	font-size: 17px;
+	color: white;
+}
+
+.line-items table th:first-child {
+	padding-left: 70px;
+}
+
+.line-items table th:last-child {
+	padding-right: 70px;
+}
+
+.line-items table td:first-child {
+	padding-left: 70px;
+}
+
+.line-items table td:last-child {
+	padding-right: 70px;
+}
+
+.line-items table td{
+	padding: 15px;
+	border-bottom: 1px solid;
+}
+
+.line-items table td p{
+	margin: 0;
+	font-size: 14px;
+}
+
+.line-items table tfoot td{
+	border-bottom: none;
+}
+
+.line-items table tfoot tr td:first-child{
+	width: 80%;
+}
+
+.quantity-col {
+	text-align: center;
+	width: 25%;
+}
+
+.total-txt {
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	line-height: 25px;
+}
+
+.total-price {
+	display: flex;
+	flex-direction: column;
+	line-height: 25px;
+}
+
+.subtotal {
+	color: #5E00FF;
+}
+
+.total-due-txt {
+	text-align: right;
+	background-color: #5E00FF;
+	color: white;
+	font-weight: 600;
+}
+
+.total-due {
+	background-color: #5E00FF;
+	color: white;
+	font-weight: 600;
+}
+
+.notes {
+	font-size: 13px;
+}
+
+.thank-you {
+	margin: 30px 0 40px 0;
+	color: #5E00FF;
+	font-weight: 600;
+	padding-left: 70px;
+}
+
+footer {
+	display: flex;
+	border-top: 2px solid #5E00FF;
+	padding-top: 20px;
+	font-size: 13px;;
+}
+
+footer div {
+	width: 33%;
+}
+
+footer div:first-child {
+	padding-left: 70px;
+}
+
+footer div:last-child {
+	padding-right: 70px;
+}
+
+footer div p{
+	margin: 5px 0;
+}
+
+footer div strong{
+	color: #5E00FF;
+	font-size: 16px;
+}
