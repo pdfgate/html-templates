@@ -138,16 +138,41 @@ header {
 }
 
 .total-due-txt {
-	text-align: right;
-	background-color: #5E00FF;
 	color: white;
 	font-weight: 600;
+	padding: 0 !important;
+}
+
+.total-due-txt div{
+	width: 100%;
+	background: #5E00FF;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 50px;
+	padding-right: 15px;
+}
+
+.total-due-txt span {
+	margin-right: 15px;
 }
 
 .total-due {
-	background-color: #5E00FF;
 	color: white;
 	font-weight: 600;
+	padding: 0 !important;
+}
+
+.total-due div{
+	width: 100%;
+	background: #5E00FF;
+	display: flex;
+	align-items: center;
+	height: 50px;
+}
+
+.total-due span {
+	margin-left: 15px;
 }
 
 .notes {
