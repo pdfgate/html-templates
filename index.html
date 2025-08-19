@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free HTML Templates for PDF Conversion | PDFGate</title>
+  <meta name="description" content="Download free ready-to-use HTML templates optimized for PDFGate’s HTML-to-PDF API. Perfect for invoices, receipts, reports, and more.">
+</head>
+<body>
+  <header>
+    <h1>HTML Templates for PDF Conversion</h1>
+    <p>Welcome to <strong>PDFGate’s HTML Templates</strong> collection. These templates are designed and tested for use with our <a href="https://pdfgate.com/html-to-pdf-api">HTML-to-PDF API</a>.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>How to Use</h2>
+      <p>
+        Each template is written in clean, standards-based HTML and CSS.
+        You can customize them as needed and convert them to PDF using PDFGate’s API:
+      </p>
+      <pre>
+curl --header "Content-Type: application/json" \
+--header "Authorization: Bearer YOUR_API_KEY" \
+--request POST \
+--data '{"pageSizeType":"a4", "html":"ADD_THE_HTML_SOURCE_CODE_FROM_TEMPLATE"}' \
+https://api.pdfgate.com/v1/generate/pdf
+      </pre>
+    </section>
+
+    <section>
+      <h2>Learn More</h2>
+      <p>For more details about PDF conversion, visit the <a href="https://pdfgate.com/blog">PDFGate Blog</a> or check our <a href="https://pdfgate.com/documentation">API Documentation</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 <a href="https://pdfgate.com">PDFGate</a>. All rights reserved.</p>
+  </footer>
+</body>
+</html>
